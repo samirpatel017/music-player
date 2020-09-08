@@ -1,0 +1,88 @@
+/*============ Media Query==============*/
+.extract{
+	height: auto;
+	
+}
+
+
+    .div12{
+    	display: none;
+    }
+     .div22{
+    	display: none;
+    }
+    
+    .div1{
+        grid-template-areas: 
+        'div11';
+        grid-template-columns: 1fr;
+   	}
+    
+	.div11{
+	   width: 60%;
+	   grid-area: div11;
+    }
+
+    .div2{
+        grid-template-areas: 
+        'div21';
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    
+    .div21{
+	   width: 60%;
+	   grid-area: div21;
+	}
+
+    .title{
+		display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+	}
+    .title img{
+       display: block;
+       margin-top: 0px;
+    }
+	.text{
+		display: none;
+	}  
+    .heart123 i{
+    font-size: 10px;   
+    }
+    .plus{
+    }
+        
+
+    .art-image{
+        margin:10px 50px;
+        width:80%;  
+    }
+    .art-image img{
+        border-radius: 50%;
+    }
+    .art-image h1{
+       display: none;
+    }
+    .div11{
+         display: block;
+    }
+    .about{
+        width: auto;
+    }
+    
+    .aside{
+        display: none;
+    }
+
+    .volume-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .volume{
+        margin-top:0px ;
+       width:50px;
+       
+    }
